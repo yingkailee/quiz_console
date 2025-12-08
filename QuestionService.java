@@ -11,9 +11,9 @@ public class QuestionService {
         questions = new Question[5];
         questions[0] = new Question(1, "What programming language is this written in?", new String[] {"Java", "C++", "Python", "Rust"}, "Java");
         questions[1] = new Question(2, "Which fast food restaurant?", new String[] {"Innout", "Five Guys", "Mcdonalds", "Burger King"}, "Innout");
-        questions[2] = new Question(3, "What programming language is this written in?", new String[] {"Java", "C++", "Python", "Rust"}, "Java");
-        questions[3] = new Question(4, "What programming language is this written in?", new String[] {"Java", "C++", "Python", "Rust"}, "Java");
-        questions[4] = new Question(5, "What programming language is this written in?", new String[] {"Java", "C++", "Python", "Rust"}, "Java");
+        questions[2] = new Question(3, "Which operating system?", new String[] {"Windows", "MacOS", "Linux", "Android"}, "MacOS");
+        questions[3] = new Question(4, "Which country am I in?", new String[] {"China", "Korea", "Mexico", "USA"}, "USA");
+        questions[4] = new Question(5, "Favorite number?", new String[] {"2", "1", "314", "293"}, "314");
         selections = new String[5];
     }
     public void playQuiz() {
